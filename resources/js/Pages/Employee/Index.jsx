@@ -20,7 +20,7 @@ const EmployeeList = ({ employees, query }) => {
         <div className='min-h-screen bg-sky-900'>
             <h1 className='pt-5 pb-8 font-medium tracking-wide font-serif text-amber-400 text-center text-3xl '>Employee List</h1>
 
-            <form onSubmit={handleSearch} className="mb-4">
+            <form onSubmit={handleSearch} className="my-4 mx-3">
                 <input
                     type="text"
                     class="w-80 p-2 border-blue-500"
